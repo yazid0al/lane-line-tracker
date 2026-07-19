@@ -87,3 +87,6 @@ The pipeline is sensitive to camera angle, resolution, and lighting. Key paramet
 - **ROI trapezoid** — the four vertices defining the road region (currently expressed as fractions of frame width/height)
 - **Canny thresholds** — `cv2.Canny(blur, 50, 150)`
 - **Hough parameters** — `rho`, `theta`, `threshold`, `minLineLength`, `maxLineGap` in `cv2.HoughLinesP`
+
+## 🧑‍💻 Author
+*Y . A . Z*
