@@ -73,12 +73,13 @@ pip install -r requirements.txt
 
 1. Place your input video somewhere accessible (e.g. `sample_videos/road.mp4`).
 2. Open `notebooks/lane_detection.ipynb` in Jupyter:
+   
    ```bash
    jupyter notebook notebooks/lane_detection.ipynb
    ```
-3. Update the `VIDEO_PATH` variable in the **Run** cell to point to your video.
-4. Run all cells. A live preview window will display the annotated video, and the result is saved to `output/output.mp4`.
-5. Press `q` at any time to stop processing early.
+4. Update the `VIDEO_PATH` variable in the **Run** cell to point to your video.
+5. Run all cells. A live preview window will display the annotated video, and the result is saved to `output/output.mp4`.
+6. Press `q` at any time to stop processing early.
 
 ## ⚙️ Tuning
 
@@ -89,4 +90,4 @@ The pipeline is sensitive to camera angle, resolution, and lighting. Key paramet
 - **Hough parameters** — `rho`, `theta`, `threshold`, `minLineLength`, `maxLineGap` in `cv2.HoughLinesP`
 
 ## 🧑‍💻 Author
-*Y . A . Z*
+**Yazid Alasidi**
